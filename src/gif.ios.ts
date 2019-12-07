@@ -15,6 +15,7 @@ export class Gif extends GifCommon {
     this.nativeView = FLAnimatedImageView.alloc().initWithFrame(
       CGRectMake(0, 0, 100, 100)
     );
+    this.nativeView.contentMode = UIViewContentMode.UIViewContentModeScaleAspectFit;
     this.nativeView.clipsToBounds = true;
     this._headers = null;
     this._src = null;

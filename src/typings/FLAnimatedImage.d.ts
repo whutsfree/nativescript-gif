@@ -64,6 +64,8 @@ declare class FLAnimatedImageView extends UIImageView {
 
 	animatedImage: FLAnimatedImage;
 
+	contentMode: number;
+
 	readonly currentFrame: UIImage;
 
 	readonly currentFrameIndex: number;
@@ -86,6 +88,36 @@ declare const enum FLLogLevel {
 	Debug = 4,
 
 	Verbose = 5
+}
+
+declare const enum UIViewContentMode {
+
+    UIViewContentModeScaleToFill = 0,
+
+    UIViewContentModeScaleAspectFit = 1,
+
+    UIViewContentModeScaleAspectFill = 2,
+
+    UIViewContentModeRedraw = 3,
+
+    UIViewContentModeCenter = 4,
+
+    UIViewContentModeTop = 5,
+
+    UIViewContentModeBottom = 6,
+
+    UIViewContentModeLeft = 7,
+
+    UIViewContentModeRight = 8,
+
+    UIViewContentModeTopLeft = 9,
+
+    UIViewContentModeTopRight = 10,
+
+    UIViewContentModeBottomLeft = 11,
+
+    UIViewContentModeBottomRight = 12
+
 }
 
 declare class FLWeakProxy extends NSProxy {
