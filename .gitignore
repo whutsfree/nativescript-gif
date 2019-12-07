@@ -34,3 +34,6 @@ nativescript-lottie.*.d.ts
 
 ## Vue demo
 !demo-vue/**/*.js
+publish/package-lock.json
+publish/package/
+
