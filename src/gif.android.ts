@@ -1,5 +1,4 @@
 import { request as HttpRequest } from 'tns-core-modules/http';
-import { View } from 'tns-core-modules/ui/core/view';
 import { knownFolders } from 'tns-core-modules/file-system';
 import { GifCommon, srcProperty, headersProperty } from './gif.common';
 
