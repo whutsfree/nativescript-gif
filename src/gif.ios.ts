@@ -1,9 +1,9 @@
-/// <reference path="./node_modules/tns-platform-declarations/ios.d.ts" />
+/// <reference path="./node_modules/@nativescript/types-ios/index.d.ts" />
 /// <reference path="./typings/FLAnimatedImage.d.ts" />
 
-import { knownFolders } from 'tns-core-modules/file-system';
+import { knownFolders } from '@nativescript/core/file-system';
 import { GifCommon, headersProperty, srcProperty } from './gif.common';
-import { PercentLength } from 'tns-core-modules/ui/styling/style-properties';
+import { PercentLength } from '@nativescript/core/ui/styling/style-properties';
 
 export class Gif extends GifCommon {
   private _animatedImage: any;

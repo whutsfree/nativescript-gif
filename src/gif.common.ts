@@ -1,4 +1,4 @@
-import { View, Property } from 'tns-core-modules/ui/core/view';
+import { View, Property } from '@nativescript/core/ui/core/view';
 
 export class GifCommon extends View {
   public src: string;

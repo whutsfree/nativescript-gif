@@ -1,5 +1,5 @@
-import { request as HttpRequest } from 'tns-core-modules/http';
-import { knownFolders } from 'tns-core-modules/file-system';
+import { request as HttpRequest } from '@nativescript/core/http';
+import { knownFolders } from '@nativescript/core/file-system';
 import { GifCommon, srcProperty, headersProperty } from './gif.common';
 
 declare var pl;
