@@ -17,7 +17,8 @@
     "tslint": "cd .. && tslint \"**/*.ts\" --config tslint.json --exclude \"**/node_modules/**\"",
     "plugin.link": "npm link",
     "plugin.tscwatch": "npm run tsc -- -w",
-    "ci.tslint": "npm i && tslint '**/*.ts' --config '../tslint.json' --exclude '**/node_modules/**'"
+    "ci.tslint": "npm i && tslint '**/*.ts' --config '../tslint.json' --exclude '**/node_modules/**'",
+    "setup": "npm i && ts-patch install"
   },
   "compilerOptions": {
     "plugins": [
